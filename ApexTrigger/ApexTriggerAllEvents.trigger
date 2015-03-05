@@ -7,11 +7,5 @@ trigger {{ api_name }} on {{ object_name }} (
 	after delete, 
 	after undelete) {
 
-		if (Trigger.isBefore) {
-	    	//call your handler.before method
-	    
-		} else if (Trigger.isAfter) {
-	    	//call handler.after method
-	    
-		}
+	// new {{ object_name }}TriggerHandler().run();
 }

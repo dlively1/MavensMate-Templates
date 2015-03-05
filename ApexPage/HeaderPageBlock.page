@@ -1,4 +1,4 @@
-<apex:page showHeader="true" sidebar="true">
+<apex:page showHeader="true" sidebar="true" docType="html-5.0">
 	<apex:sectionHeader title="MyHeaderTitle" subtitle="MyHeaderSubTitle" />
 	<apex:pageBlock title="MyPageBlockTitle">
 		<apex:pageBlockButtons location="top">

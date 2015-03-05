@@ -37,7 +37,7 @@ public class {{ api_name }} extends fflib_SObjectSelector
 		assertIsAccessible();
 		return (List<{{ object_name }}>) Database.query(
 				String.format(
-				'select {0}, ' +
+				'select {0} ' +
 				  'from {1} ' +
 				  'where Something__c in :somethings ' + 
 				  'order by {2}',
